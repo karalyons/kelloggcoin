@@ -35,7 +35,7 @@ for transaction in blockchain
     brians_balance = brians_balance - transaction["amount"]
   elsif transaction["from_user"] == "evan"
     evans_balance = evans_balance - transaction["amount"]
-  elsif transaction["from _user"] == "anthony"
+  elsif transaction["from_user"] == "anthony"
     anthonys_balance = anthonys_balance - transaction["amount"]
   end
 
